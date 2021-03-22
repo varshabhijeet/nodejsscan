@@ -17,7 +17,7 @@ IGNORE_PATHS = ('.git', '.DS_Store')
 CHECK_MISSING_CONTROLS = True
 
 # Postgres DB Connection URL
-SQLALCHEMY_DATABASE_URI = 'postgresql://sonar:sonar@127.0.0.1/nodejsscan'
+SQLALCHEMY_DATABASE_URI = 'postgresql://sonar:sonar@0.0.0.0/nodejsscan'
 
 # Get Slack alerts
 SLACK_WEBHOOK_URL = ''
